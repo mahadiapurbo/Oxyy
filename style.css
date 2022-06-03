@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+h1{
+    margin-top: 20px;
+    margin-bottom:20px ;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color:#1e8efb;
+}
+.main{
+    display: flex;
+}
+
+/* logo part */
+
+.logo{
+    width: 35vw;
+    height: 100vh;
+}
+.bg-img{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+/* login-site part */
+
+.login-site{
+    background: #111418;
+    width: 70vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.input-text{
+    width: 35vw;
+    height: 70vh;
+    background: #111418;
+}
+.google{
+    padding: 10px 25px;
+    font-size: 16px;
+    color: white;
+    background: #006ADB;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.apple{
+    padding: 8px 12px;
+    font-size: 18px;
+    color: white;
+    background: #596168;
+    border: none;
+    border-radius: 5px;
+}
+.hr-style{
+    margin-bottom: 20px;
+}
+p{
+    margin-bottom: 15px;
+    color: white;
+}
+.one{
+    padding: 10px;
+    margin: 0;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background:#232A31;
+    color: #777B7F;
+    width: 100%;
+    height: 60px;
+    font-size: 16px;
+}
+.checker{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.button{
+    border: none;
+}
+.cog{
+    position: absolute;
+    right: 0px;
+    top: 300px;
+}
+.gear{
+    width: 45px;
+    height: 45px;
+    font-size: 30px;
+    color: white;
+    background: #777B7F;
+    border: none;
+    border-radius: 5px;
+}
+
